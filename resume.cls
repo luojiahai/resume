@@ -1,4 +1,4 @@
-\ProvidesClass{waver}[]
+\ProvidesClass{resume}[]
 \LoadClass[10pt,letterpaper]{article}
 \AddToHook{package/xeCJK/after}{\defaultCJKfontfeatures{}}
 
@@ -41,7 +41,7 @@ ItalicFont={FandolKai-Regular}
 \par\addressskip
 }
 
-\newenvironment{xsection}[1]{
+\newenvironment{resumesection}[1]{
 \textbf{\uppercase{#1}}
 \sectionlineskip
 \hrule height 0.6pt
