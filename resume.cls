@@ -15,7 +15,7 @@ ItalicFont={FandolKai-Regular}
 \usepackage{array}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{hyperref}
-\usepackage[left=0.3in,top=0.3in,right=0.3in,bottom=0.3in]{geometry}
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry}
 
 \pagestyle{empty}
 \pagecolor{white}
@@ -50,37 +50,37 @@ ItalicFont={FandolKai-Regular}
 \itemsep -2.0pt
 }{\end{list}\sectionskip}
 
-\newenvironment{xheading1}[2]{
+\newenvironment{resumeheading1}[2]{
 \item \textbf{#1} \hfill \textbf{#2}
 \begin{list}{}{\setlength{\leftmargin}{0pt}}
 \vspace{-4.0pt}
 \itemsep -4.0pt
 }{\end{list}\vspace{1.0pt}}
 
-\newenvironment{xheading2}[2]{
+\newenvironment{resumeheading2}[2]{
 \item \textbf{#1} \hfill {#2}
 \begin{list}{\raisebox{2.0pt}{\tiny$\bullet$}\space}{\setlength{\leftmargin}{12.0pt}}
 \vspace{-4.0pt}
 \itemsep -4.0pt
 }{\end{list}\vspace{1.0pt}}
 
-\newenvironment{xheading3}[2]{
+\newenvironment{resumeheading3}[2]{
 \item \textbf{#1} \hfill {#2}
 \par
 }{\vspace{1.0pt}}
 
-\newenvironment{xheading4}[1]{
+\newenvironment{resumeheading4}[1]{
 \item \textbf{#1}:
 }{\vspace{1.0pt}}
 
-\newenvironment{xsubheading1}[2]{
+\newenvironment{resumesubheading1}[2]{
 \item \textit{#1} \hfill {#2}
 \begin{list}{\raisebox{2.0pt}{\tiny$\bullet$}\space}{\setlength{\leftmargin}{12.0pt}}
 \vspace{-4.0pt}
 \itemsep -4.0pt
 }{\end{list}\vspace{1.0pt}}
 
-\newenvironment{xsubheading2}[2]{
+\newenvironment{resumesubheading2}[2]{
 \item \textit{#1} \hfill {#2}
 \par
 }{\vspace{1.0pt}}
